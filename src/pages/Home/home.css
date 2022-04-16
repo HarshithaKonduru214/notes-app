@@ -1,0 +1,53 @@
+@import url("https://utility-component.netlify.app/utility.css");
+@import url("https://oxygen-ui-component-library.netlify.app/components/button/button.css");
+
+
+:root {
+    --primary-color: #635EBB;
+  
+}
+
+*{
+    overflow: hidden;
+    
+}
+
+.home-container{
+    height: 95vh;
+    width: 80%;   
+
+}
+
+
+.home-left{
+    min-height: 100% ;
+}
+
+.home-heading {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.home-desc-title {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.home-desc-content {
+    text-align: left;
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.home-left {
+    gap: 5rem;
+}
+
+.primary-button-outlined:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
